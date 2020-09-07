@@ -304,10 +304,11 @@ body {
   justify-content: center;
 }
 .social-item {
-  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  padding: 12px;
   border-radius: 50%;
 }
 .social-item:not(:last-child) {
