@@ -304,6 +304,13 @@ body {
   justify-content: center;
 }
 .social-item {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.social-item:nth-child(4n) {
+  margin-right: 0;
+}
+.social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -481,17 +488,23 @@ body {
   color: var(--white-color);
 }
 
-.footer-social-item {
-  line-height: 0;
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  padding: 12px;
   border-radius: 50%;
   background-color: var(--white-icon-color);
 }
 
-.footer-social-item:not(:last-child) {
+.footer-social-item {
   margin-right: 10px;
+  border-radius: 50%;
+}
+
+.footer-social-item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .footer-social-item:hover {
